@@ -1,50 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css" />
 </head>
-    <body>
-        <header>
-            <nav>
-                <a href="">WebStudio</a>
-                
-                <ul>
-                    <li><a href="">Студия</a></li>
-                    <li><a href="">Портфолио</a></li>
-                    <li><a href="">Контакты</a></li>
-                
-                </ul>
-            </nav>
 
-                <ul>
-                    <li><a href="mailto:">info@devstudio.com</a></li>
-                    <li><a href="tel:">+38 096 111 11 11</a></li>
-                </ul>
+<body>
+    <header>
+        <nav>
+            <a href="./index.html" class="logo">
 
-        </header>
+                <span class="accent">Web</span>Studio</a>
+
+            <ul class="list">
+                <li><a href="./index.html" class="header-link link">Студия</a></li>
+                <li><a href="./portfolio.html" class="header-link link">Портфолио</a></li>
+                <li><a href="" class="header-link link">Контакты</a></li>
+
+            </ul>
+        </nav>
+
+        <ul class="list">
+            <li><a href="mailto:" class="header-tel link">info@devstudio.com</a></li>
+            <li><a href="tel:+380961111111" class="header-tel link">+38 096 111 11 11</a></li>
+        </ul>
+
+    </header>
         <main>
                        
-
-<section>
-<li><a href="">Все</a></li>
-<li><a href="">Веб-сайты</a></li>
-<li><a href="">Приложения</a></li>
-<li><a href="">Дизайн</a></li>
-<li><a href="">Маркетинг</a></li>
-</section>
+            <section>
+            <h2 style='display: none;'>Направления</h2>
+            <ul>
+            <button type="button" class="button primary">Все</button>
+            <button type="button" class="button primary">Веб-сайты</button>
+            <button type="button" class="button primary">Приложения</button>
+            <button type="button" class="button primary">Дизайн</button>
+            <button type="button" class="button primary">Маркетинг</button>
+            </ul>
+            </section>
  
         <section>
 
-            <h2>Наши Работы</h2>
+            <h2 style='display: none;'>Наши Работы</h2>
 
-            <ul>
+            <ul class="list jobs">
                 <li>
                     <img src="./img/1.jpg" alt="Технокряк" width="270">
                     <h3>Технокряк</h3>
-                    <p>
+                    <p class="port-directions">
                         Веб-сайт
                     </p>
                 </li>
@@ -116,7 +129,7 @@
         </main>
         <footer>
             
-                <a href="">WebStudio</a>
+                <a href="index.html">WebStudio</a>
                 <address>г. Киев, пр-т Леси Украинки, 26</address>
                     
             <ul>
